@@ -1,0 +1,21 @@
+{
+  "":{
+  	"name" : "<%= author %>"
+  	},
+  "name": "<%= componentName %>",
+  "version": "0.0.1",
+  "main" :[],
+  "ignore" : [
+  		"**/*.",
+  		"bower_components",
+  		"node_modules",
+  		"Gruntfile.js",
+  		"package.json"
+  ],
+  "dependencies": {
+
+  	},
+  "devDependencies":{},
+  "private": true	
+}
+
