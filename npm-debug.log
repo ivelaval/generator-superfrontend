@@ -1,0 +1,582 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'link' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose linkPkg /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+5 verbose link build target /usr/local/lib/node_modules/generator-superfrontend
+6 verbose install where,what [ '/var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend',
+6 verbose install   [] ]
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend',
+8 verbose install   [ 'yeoman-generator',
+8 verbose install     'cheerio',
+8 verbose install     'chalk',
+8 verbose install     'yosay',
+8 verbose install     'mocha',
+8 verbose install     'underscore',
+8 verbose install     'grunt',
+8 verbose install     'grunt-contrib-jshint',
+8 verbose install     'grunt-contrib-htmlmin',
+8 verbose install     'grunt-contrib-csslint',
+8 verbose install     'grunt-contrib-cssmin',
+8 verbose install     'grunt-contrib-imagemin',
+8 verbose install     'grunt-contrib-connect',
+8 verbose install     'grunt-contrib-coffee',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-contrib-compass',
+8 verbose install     'grunt-contrib-stylus',
+8 verbose install     'grunt-contrib-less',
+8 verbose install     'grunt-conventional-changelog',
+8 verbose install     'grunt-release',
+8 verbose install     'load-grunt-tasks' ] ]
+9 info preinstall generator-superfrontend@0.1.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping chalk@^0.5.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+12 verbose already installed skipping yeoman-generator@^0.17.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+13 verbose already installed skipping cheerio@^0.17.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+14 verbose already installed skipping yosay@^0.3.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+15 verbose already installed skipping mocha@* /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+16 verbose already installed skipping underscore@^1.6.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+17 verbose already installed skipping grunt@~0.4.1 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+18 verbose already installed skipping grunt-contrib-jshint@~0.8.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+19 verbose cache add [ 'grunt-contrib-htmlmin@~0.3.0', null ]
+20 verbose cache add name=undefined spec="grunt-contrib-htmlmin@~0.3.0" args=["grunt-contrib-htmlmin@~0.3.0",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'grunt-contrib-htmlmin@~0.3.0',
+21 verbose parsed url   path: 'grunt-contrib-htmlmin@~0.3.0',
+21 verbose parsed url   href: 'grunt-contrib-htmlmin@~0.3.0' }
+22 verbose cache add name="grunt-contrib-htmlmin" spec="~0.3.0" args=["grunt-contrib-htmlmin","~0.3.0"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '~0.3.0',
+23 verbose parsed url   path: '~0.3.0',
+23 verbose parsed url   href: '~0.3.0' }
+24 verbose addNamed [ 'grunt-contrib-htmlmin', '~0.3.0' ]
+25 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+26 verbose cache add [ 'grunt-contrib-csslint@~0.2.0', null ]
+27 verbose cache add name=undefined spec="grunt-contrib-csslint@~0.2.0" args=["grunt-contrib-csslint@~0.2.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'grunt-contrib-csslint@~0.2.0',
+28 verbose parsed url   path: 'grunt-contrib-csslint@~0.2.0',
+28 verbose parsed url   href: 'grunt-contrib-csslint@~0.2.0' }
+29 verbose cache add name="grunt-contrib-csslint" spec="~0.2.0" args=["grunt-contrib-csslint","~0.2.0"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '~0.2.0',
+30 verbose parsed url   path: '~0.2.0',
+30 verbose parsed url   href: '~0.2.0' }
+31 verbose addNamed [ 'grunt-contrib-csslint', '~0.2.0' ]
+32 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+33 silly lockFile b648b7bb-grunt-contrib-htmlmin-0-3-0 grunt-contrib-htmlmin@~0.3.0
+34 verbose lock grunt-contrib-htmlmin@~0.3.0 /home/cerato/.npm/b648b7bb-grunt-contrib-htmlmin-0-3-0.lock
+35 verbose cache add [ 'grunt-contrib-cssmin@~0.11.0', null ]
+36 verbose cache add name=undefined spec="grunt-contrib-cssmin@~0.11.0" args=["grunt-contrib-cssmin@~0.11.0",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'grunt-contrib-cssmin@~0.11.0',
+37 verbose parsed url   path: 'grunt-contrib-cssmin@~0.11.0',
+37 verbose parsed url   href: 'grunt-contrib-cssmin@~0.11.0' }
+38 verbose cache add name="grunt-contrib-cssmin" spec="~0.11.0" args=["grunt-contrib-cssmin","~0.11.0"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '~0.11.0',
+39 verbose parsed url   path: '~0.11.0',
+39 verbose parsed url   href: '~0.11.0' }
+40 verbose addNamed [ 'grunt-contrib-cssmin', '~0.11.0' ]
+41 verbose addNamed [ null, '>=0.11.0-0 <0.12.0-0' ]
+42 silly lockFile 111e7fd0-grunt-contrib-cssmin-0-11-0 grunt-contrib-cssmin@~0.11.0
+43 verbose lock grunt-contrib-cssmin@~0.11.0 /home/cerato/.npm/111e7fd0-grunt-contrib-cssmin-0-11-0.lock
+44 silly lockFile f99c0ad5-grunt-contrib-csslint-0-2-0 grunt-contrib-csslint@~0.2.0
+45 verbose lock grunt-contrib-csslint@~0.2.0 /home/cerato/.npm/f99c0ad5-grunt-contrib-csslint-0-2-0.lock
+46 verbose cache add [ 'grunt-contrib-imagemin@~0.8.1', null ]
+47 verbose cache add name=undefined spec="grunt-contrib-imagemin@~0.8.1" args=["grunt-contrib-imagemin@~0.8.1",null]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'grunt-contrib-imagemin@~0.8.1',
+48 verbose parsed url   path: 'grunt-contrib-imagemin@~0.8.1',
+48 verbose parsed url   href: 'grunt-contrib-imagemin@~0.8.1' }
+49 verbose cache add name="grunt-contrib-imagemin" spec="~0.8.1" args=["grunt-contrib-imagemin","~0.8.1"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '~0.8.1',
+50 verbose parsed url   path: '~0.8.1',
+50 verbose parsed url   href: '~0.8.1' }
+51 verbose addNamed [ 'grunt-contrib-imagemin', '~0.8.1' ]
+52 verbose addNamed [ null, '>=0.8.1-0 <0.9.0-0' ]
+53 silly lockFile fe18f9d5-grunt-contrib-imagemin-0-8-1 grunt-contrib-imagemin@~0.8.1
+54 verbose lock grunt-contrib-imagemin@~0.8.1 /home/cerato/.npm/fe18f9d5-grunt-contrib-imagemin-0-8-1.lock
+55 verbose cache add [ 'grunt-contrib-connect@~0.9.0', null ]
+56 verbose cache add name=undefined spec="grunt-contrib-connect@~0.9.0" args=["grunt-contrib-connect@~0.9.0",null]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: 'grunt-contrib-connect@~0.9.0',
+57 verbose parsed url   path: 'grunt-contrib-connect@~0.9.0',
+57 verbose parsed url   href: 'grunt-contrib-connect@~0.9.0' }
+58 verbose cache add name="grunt-contrib-connect" spec="~0.9.0" args=["grunt-contrib-connect","~0.9.0"]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: '~0.9.0',
+59 verbose parsed url   path: '~0.9.0',
+59 verbose parsed url   href: '~0.9.0' }
+60 verbose addNamed [ 'grunt-contrib-connect', '~0.9.0' ]
+61 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+62 silly lockFile d5dfeaa0-grunt-contrib-connect-0-9-0 grunt-contrib-connect@~0.9.0
+63 verbose lock grunt-contrib-connect@~0.9.0 /home/cerato/.npm/d5dfeaa0-grunt-contrib-connect-0-9-0.lock
+64 verbose cache add [ 'grunt-contrib-coffee@~0.11.1', null ]
+65 verbose cache add name=undefined spec="grunt-contrib-coffee@~0.11.1" args=["grunt-contrib-coffee@~0.11.1",null]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: 'grunt-contrib-coffee@~0.11.1',
+66 verbose parsed url   path: 'grunt-contrib-coffee@~0.11.1',
+66 verbose parsed url   href: 'grunt-contrib-coffee@~0.11.1' }
+67 verbose cache add name="grunt-contrib-coffee" spec="~0.11.1" args=["grunt-contrib-coffee","~0.11.1"]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: '~0.11.1',
+68 verbose parsed url   path: '~0.11.1',
+68 verbose parsed url   href: '~0.11.1' }
+69 verbose addNamed [ 'grunt-contrib-coffee', '~0.11.1' ]
+70 verbose addNamed [ null, '>=0.11.1-0 <0.12.0-0' ]
+71 silly lockFile 02184c10-grunt-contrib-coffee-0-11-1 grunt-contrib-coffee@~0.11.1
+72 verbose lock grunt-contrib-coffee@~0.11.1 /home/cerato/.npm/02184c10-grunt-contrib-coffee-0-11-1.lock
+73 verbose cache add [ 'grunt-contrib-concat@~0.5.0', null ]
+74 verbose cache add name=undefined spec="grunt-contrib-concat@~0.5.0" args=["grunt-contrib-concat@~0.5.0",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'grunt-contrib-concat@~0.5.0',
+75 verbose parsed url   path: 'grunt-contrib-concat@~0.5.0',
+75 verbose parsed url   href: 'grunt-contrib-concat@~0.5.0' }
+76 verbose cache add name="grunt-contrib-concat" spec="~0.5.0" args=["grunt-contrib-concat","~0.5.0"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '~0.5.0',
+77 verbose parsed url   path: '~0.5.0',
+77 verbose parsed url   href: '~0.5.0' }
+78 verbose addNamed [ 'grunt-contrib-concat', '~0.5.0' ]
+79 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+80 silly lockFile ab641ed0-grunt-contrib-concat-0-5-0 grunt-contrib-concat@~0.5.0
+81 verbose lock grunt-contrib-concat@~0.5.0 /home/cerato/.npm/ab641ed0-grunt-contrib-concat-0-5-0.lock
+82 verbose cache add [ 'grunt-contrib-uglify@~0.5.1', null ]
+83 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.5.1" args=["grunt-contrib-uglify@~0.5.1",null]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.5.1',
+84 verbose parsed url   path: 'grunt-contrib-uglify@~0.5.1',
+84 verbose parsed url   href: 'grunt-contrib-uglify@~0.5.1' }
+85 verbose cache add name="grunt-contrib-uglify" spec="~0.5.1" args=["grunt-contrib-uglify","~0.5.1"]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: '~0.5.1',
+86 verbose parsed url   path: '~0.5.1',
+86 verbose parsed url   href: '~0.5.1' }
+87 verbose addNamed [ 'grunt-contrib-uglify', '~0.5.1' ]
+88 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+89 silly lockFile b496bbf6-grunt-contrib-uglify-0-5-1 grunt-contrib-uglify@~0.5.1
+90 verbose lock grunt-contrib-uglify@~0.5.1 /home/cerato/.npm/b496bbf6-grunt-contrib-uglify-0-5-1.lock
+91 verbose cache add [ 'grunt-contrib-watch@~0.6.1', null ]
+92 verbose cache add name=undefined spec="grunt-contrib-watch@~0.6.1" args=["grunt-contrib-watch@~0.6.1",null]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: 'grunt-contrib-watch@~0.6.1',
+93 verbose parsed url   path: 'grunt-contrib-watch@~0.6.1',
+93 verbose parsed url   href: 'grunt-contrib-watch@~0.6.1' }
+94 verbose cache add name="grunt-contrib-watch" spec="~0.6.1" args=["grunt-contrib-watch","~0.6.1"]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '~0.6.1',
+95 verbose parsed url   path: '~0.6.1',
+95 verbose parsed url   href: '~0.6.1' }
+96 verbose addNamed [ 'grunt-contrib-watch', '~0.6.1' ]
+97 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+98 silly lockFile 82ce6ec8-grunt-contrib-watch-0-6-1 grunt-contrib-watch@~0.6.1
+99 verbose lock grunt-contrib-watch@~0.6.1 /home/cerato/.npm/82ce6ec8-grunt-contrib-watch-0-6-1.lock
+100 verbose cache add [ 'grunt-contrib-compass@~0.9.1', null ]
+101 verbose cache add name=undefined spec="grunt-contrib-compass@~0.9.1" args=["grunt-contrib-compass@~0.9.1",null]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: 'grunt-contrib-compass@~0.9.1',
+102 verbose parsed url   path: 'grunt-contrib-compass@~0.9.1',
+102 verbose parsed url   href: 'grunt-contrib-compass@~0.9.1' }
+103 verbose cache add name="grunt-contrib-compass" spec="~0.9.1" args=["grunt-contrib-compass","~0.9.1"]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '~0.9.1',
+104 verbose parsed url   path: '~0.9.1',
+104 verbose parsed url   href: '~0.9.1' }
+105 verbose addNamed [ 'grunt-contrib-compass', '~0.9.1' ]
+106 verbose addNamed [ null, '>=0.9.1-0 <0.10.0-0' ]
+107 silly lockFile df845b1d-grunt-contrib-compass-0-9-1 grunt-contrib-compass@~0.9.1
+108 verbose lock grunt-contrib-compass@~0.9.1 /home/cerato/.npm/df845b1d-grunt-contrib-compass-0-9-1.lock
+109 verbose cache add [ 'grunt-contrib-stylus@~0.19.0', null ]
+110 verbose cache add name=undefined spec="grunt-contrib-stylus@~0.19.0" args=["grunt-contrib-stylus@~0.19.0",null]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'grunt-contrib-stylus@~0.19.0',
+111 verbose parsed url   path: 'grunt-contrib-stylus@~0.19.0',
+111 verbose parsed url   href: 'grunt-contrib-stylus@~0.19.0' }
+112 verbose cache add name="grunt-contrib-stylus" spec="~0.19.0" args=["grunt-contrib-stylus","~0.19.0"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '~0.19.0',
+113 verbose parsed url   path: '~0.19.0',
+113 verbose parsed url   href: '~0.19.0' }
+114 verbose addNamed [ 'grunt-contrib-stylus', '~0.19.0' ]
+115 verbose addNamed [ null, '>=0.19.0-0 <0.20.0-0' ]
+116 silly lockFile 101dde5d-grunt-contrib-stylus-0-19-0 grunt-contrib-stylus@~0.19.0
+117 verbose lock grunt-contrib-stylus@~0.19.0 /home/cerato/.npm/101dde5d-grunt-contrib-stylus-0-19-0.lock
+118 verbose already installed skipping grunt-conventional-changelog@~1.1.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+119 verbose cache add [ 'grunt-contrib-less@~0.11.4', null ]
+120 verbose cache add name=undefined spec="grunt-contrib-less@~0.11.4" args=["grunt-contrib-less@~0.11.4",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'grunt-contrib-less@~0.11.4',
+121 verbose parsed url   path: 'grunt-contrib-less@~0.11.4',
+121 verbose parsed url   href: 'grunt-contrib-less@~0.11.4' }
+122 verbose cache add name="grunt-contrib-less" spec="~0.11.4" args=["grunt-contrib-less","~0.11.4"]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: '~0.11.4',
+123 verbose parsed url   path: '~0.11.4',
+123 verbose parsed url   href: '~0.11.4' }
+124 verbose addNamed [ 'grunt-contrib-less', '~0.11.4' ]
+125 verbose addNamed [ null, '>=0.11.4-0 <0.12.0-0' ]
+126 silly lockFile d6b045ca-grunt-contrib-less-0-11-4 grunt-contrib-less@~0.11.4
+127 verbose lock grunt-contrib-less@~0.11.4 /home/cerato/.npm/d6b045ca-grunt-contrib-less-0-11-4.lock
+128 verbose already installed skipping grunt-release@~0.6.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+129 verbose already installed skipping load-grunt-tasks@~0.3.0 /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+130 silly addNameRange { name: 'grunt-contrib-htmlmin',
+130 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+130 silly addNameRange   hasData: false }
+131 silly addNameRange { name: 'grunt-contrib-cssmin',
+131 silly addNameRange   range: '>=0.11.0-0 <0.12.0-0',
+131 silly addNameRange   hasData: false }
+132 silly addNameRange { name: 'grunt-contrib-connect',
+132 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+132 silly addNameRange   hasData: false }
+133 silly addNameRange { name: 'grunt-contrib-coffee',
+133 silly addNameRange   range: '>=0.11.1-0 <0.12.0-0',
+133 silly addNameRange   hasData: false }
+134 silly addNameRange { name: 'grunt-contrib-concat',
+134 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+134 silly addNameRange   hasData: false }
+135 silly addNameRange { name: 'grunt-contrib-uglify',
+135 silly addNameRange   range: '>=0.5.1-0 <0.6.0-0',
+135 silly addNameRange   hasData: false }
+136 silly addNameRange { name: 'grunt-contrib-watch',
+136 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+136 silly addNameRange   hasData: false }
+137 silly addNameRange { name: 'grunt-contrib-compass',
+137 silly addNameRange   range: '>=0.9.1-0 <0.10.0-0',
+137 silly addNameRange   hasData: false }
+138 silly addNameRange { name: 'grunt-contrib-stylus',
+138 silly addNameRange   range: '>=0.19.0-0 <0.20.0-0',
+138 silly addNameRange   hasData: false }
+139 silly addNameRange { name: 'grunt-contrib-less',
+139 silly addNameRange   range: '>=0.11.4-0 <0.12.0-0',
+139 silly addNameRange   hasData: false }
+140 silly addNameRange { name: 'grunt-contrib-imagemin',
+140 silly addNameRange   range: '>=0.8.1-0 <0.9.0-0',
+140 silly addNameRange   hasData: false }
+141 silly addNameRange { name: 'grunt-contrib-csslint',
+141 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+141 silly addNameRange   hasData: false }
+142 verbose url raw grunt-contrib-htmlmin
+143 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-htmlmin' ]
+144 verbose url resolved https://registry.npmjs.org/grunt-contrib-htmlmin
+145 info trying registry request attempt 1 at 22:41:24
+146 verbose etag "2GJR28H9N1HAQOEM3OXU99LQF"
+147 http GET https://registry.npmjs.org/grunt-contrib-htmlmin
+148 verbose url raw grunt-contrib-connect
+149 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+150 verbose url resolved https://registry.npmjs.org/grunt-contrib-connect
+151 info trying registry request attempt 1 at 22:41:24
+152 verbose etag "LRSNK48QIB1D624FTU4H3Z1L"
+153 http GET https://registry.npmjs.org/grunt-contrib-connect
+154 verbose url raw grunt-contrib-cssmin
+155 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+156 verbose url resolved https://registry.npmjs.org/grunt-contrib-cssmin
+157 info trying registry request attempt 1 at 22:41:24
+158 verbose etag "4UG74GBFPZSBVG81DCRPOIJCL"
+159 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+160 verbose url raw grunt-contrib-coffee
+161 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-coffee' ]
+162 verbose url resolved https://registry.npmjs.org/grunt-contrib-coffee
+163 info trying registry request attempt 1 at 22:41:24
+164 verbose etag "1EELO9MJT3GQ224ORTGWWK290"
+165 http GET https://registry.npmjs.org/grunt-contrib-coffee
+166 verbose url raw grunt-contrib-uglify
+167 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+168 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+169 info trying registry request attempt 1 at 22:41:24
+170 verbose etag "4PRZRKAHC5H9HBXA2NVVLZR63"
+171 http GET https://registry.npmjs.org/grunt-contrib-uglify
+172 verbose url raw grunt-contrib-concat
+173 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-concat' ]
+174 verbose url resolved https://registry.npmjs.org/grunt-contrib-concat
+175 info trying registry request attempt 1 at 22:41:24
+176 verbose etag "DNCAJJB8CD0FEWC4CYR0WU7Q"
+177 http GET https://registry.npmjs.org/grunt-contrib-concat
+178 verbose url raw grunt-contrib-watch
+179 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+180 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+181 info trying registry request attempt 1 at 22:41:24
+182 verbose etag "8H8Y0HYJILP5JE2WIM678UU3"
+183 http GET https://registry.npmjs.org/grunt-contrib-watch
+184 verbose url raw grunt-contrib-compass
+185 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-compass' ]
+186 verbose url resolved https://registry.npmjs.org/grunt-contrib-compass
+187 info trying registry request attempt 1 at 22:41:24
+188 verbose etag "3QRHJM8E3R0M38MRLW5IYM5DE"
+189 http GET https://registry.npmjs.org/grunt-contrib-compass
+190 verbose url raw grunt-contrib-stylus
+191 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-stylus' ]
+192 verbose url resolved https://registry.npmjs.org/grunt-contrib-stylus
+193 info trying registry request attempt 1 at 22:41:24
+194 verbose etag "8BF14IGUXRGINP3IXTWML8XPP"
+195 http GET https://registry.npmjs.org/grunt-contrib-stylus
+196 verbose url raw grunt-contrib-csslint
+197 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-csslint' ]
+198 verbose url resolved https://registry.npmjs.org/grunt-contrib-csslint
+199 info trying registry request attempt 1 at 22:41:24
+200 verbose etag "DC7R3OI7H1ZSZ9N2BYDLTRJ5C"
+201 http GET https://registry.npmjs.org/grunt-contrib-csslint
+202 verbose url raw grunt-contrib-less
+203 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-less' ]
+204 verbose url resolved https://registry.npmjs.org/grunt-contrib-less
+205 info trying registry request attempt 1 at 22:41:24
+206 verbose etag "2KANHJR6OWJ5WCV2A50Q8YRLB"
+207 http GET https://registry.npmjs.org/grunt-contrib-less
+208 verbose url raw grunt-contrib-imagemin
+209 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+210 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+211 info trying registry request attempt 1 at 22:41:24
+212 verbose etag "2OTHKWP6Q1MANDP7DGL0WM45N"
+213 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+214 http 304 https://registry.npmjs.org/grunt-contrib-connect
+215 silly registry.get cb [ 304,
+215 silly registry.get   { date: 'Fri, 29 Aug 2014 03:41:24 GMT',
+215 silly registry.get     server: 'Apache',
+215 silly registry.get     via: '1.1 varnish',
+215 silly registry.get     'last-modified': 'Fri, 29 Aug 2014 03:41:24 GMT',
+215 silly registry.get     'cache-control': 'max-age=60',
+215 silly registry.get     etag: '"LRSNK48QIB1D624FTU4H3Z1L"',
+215 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+215 silly registry.get     'x-cache': 'HIT',
+215 silly registry.get     'x-cache-hits': '1',
+215 silly registry.get     'x-timer': 'S1409283684.499383,VS0,VE0',
+215 silly registry.get     vary: 'Accept',
+215 silly registry.get     'content-length': '0',
+215 silly registry.get     'keep-alive': 'timeout=10, max=50',
+215 silly registry.get     connection: 'Keep-Alive' } ]
+216 verbose etag grunt-contrib-connect from cache
+217 silly addNameRange number 2 { name: 'grunt-contrib-connect',
+217 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+217 silly addNameRange   hasData: true }
+218 silly addNameRange versions [ 'grunt-contrib-connect',
+218 silly addNameRange   [ '0.1.0',
+218 silly addNameRange     '0.1.1',
+218 silly addNameRange     '0.1.2',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.3.0',
+218 silly addNameRange     '0.4.0',
+218 silly addNameRange     '0.4.1',
+218 silly addNameRange     '0.4.2',
+218 silly addNameRange     '0.5.0',
+218 silly addNameRange     '0.6.0',
+218 silly addNameRange     '0.7.0',
+218 silly addNameRange     '0.7.1',
+218 silly addNameRange     '0.8.0',
+218 silly addNameRange     '0.1.1-rc6' ] ]
+219 silly lockFile d5dfeaa0-grunt-contrib-connect-0-9-0 grunt-contrib-connect@~0.9.0
+220 silly lockFile d5dfeaa0-grunt-contrib-connect-0-9-0 grunt-contrib-connect@~0.9.0
+221 error Error: No compatible version found: grunt-contrib-connect@'>=0.9.0-0 <0.10.0-0'
+221 error Valid install targets:
+221 error ["0.1.0","0.1.1","0.1.2","0.2.0","0.3.0","0.4.0","0.4.1","0.4.2","0.5.0","0.6.0","0.7.0","0.7.1","0.8.0","0.1.1-rc6"]
+221 error     at installTargetsError (/usr/share/npm/lib/cache.js:719:10)
+221 error     at next (/usr/share/npm/lib/cache.js:698:17)
+221 error     at /usr/share/npm/lib/cache.js:675:5
+221 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+221 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+221 error     at Object.oncomplete (fs.js:107:15)
+222 error If you need help, you may report this log at:
+222 error     <http://github.com/isaacs/npm/issues>
+222 error or email it to:
+222 error     <npm-@googlegroups.com>
+223 error System Linux 3.13.0-34-generic
+224 error command "/usr/bin/nodejs" "/usr/bin/npm" "link"
+225 error cwd /var/www/CERATO/inhouse.projects/yeoman/my-generators/generator-superfrontend
+226 error node -v v0.10.25
+227 error npm -v 1.3.10
+228 verbose exit [ 1, true ]
