@@ -10,8 +10,8 @@ var SuperfrontendGenerator = yeoman.generators.Base.extend({
 
   initializing: function (arg, options) {
     //this.phk = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
-    this.pkg = require('../package.json');
     //this.pkg = this.dest.readJSON('../package.json');
+    this.pkg = require('../package.json');
   },
 
   prompting: function () {
@@ -122,6 +122,7 @@ var SuperfrontendGenerator = yeoman.generators.Base.extend({
         {
           name: "BackboneJS",
           value: "backbone"
+        
         },
         {
           name: "Ninguno",
@@ -173,56 +174,36 @@ var SuperfrontendGenerator = yeoman.generators.Base.extend({
   },
 
   writing: {
+
     app: function () {
       this.dest.mkdir('app');
       this.dest.mkdir('app/templates');
-
+    },
+    
+    package: function(){
       this.src.copy('_package.json', 'package.json');
+    },
+
+    bower: function(){
       this.src.copy('_bower.json', 'bower.json');
     },
 
     projectfiles: function () {
-      this.src.copy('editorconfig', '.editorconfig');
-      this.src.copy('jshintrc', '.jshintrc');
+      this.src.copy('_editorconfig', '.editorconfig');
+      this.src.copy('_jshintrc', '.jshintrc');
+    },
+
+    git: function(){
+
     },
 
     task: function(){
-      
-      var _tasks  = [];  
+      this.src.copy('_Gruntfile.js','Gruntfile.js');
+    },
 
-      //configuración
-      /*
-      this.gruntfile.insertConfig("watch", "{}");
-      this.gruntfile.insertConfig("concat", "{}");
-      this.gruntfile.insertConfig("jshint", "{beforeconcat:['src/foo.js','src/bar.js'],afterconcat:['dist/main.js']}");
-      this.gruntfile.insertConfig("csslint", "{}");
-      this.gruntfile.insertConfig("cssmin", "{}");
-      this.gruntfile.insertConfig("imagemin", "{}");
-      this.gruntfile.insertConfig("connect", "{}");
-      this.gruntfile.insertConfig("uglify", "{}");
-
-      switch(this.PreprocessorCssOption){
-        case "less":
-          this.gruntfile.insertConfig("less", "");
-          _tasks.push("less");
-        break;
-        case "sass":
-          this.gruntfile.insertConfig("compass", "{ watch: { watch: true } }");
-          _tasks.push("compass");
-        break;
-        case "stylus": 
-          this.gruntfile.insertConfig("stylus", "");
-          _tasks.push("stylus");
-        break;
-      }
-      
-      if(this.PreprocessorJavascriptOption){
-          this.gruntfile.insertConfig("coffee", "");
-          _tasks.push("coffee");
-      }*/
-      
-      //Registro de tareas
-      this.gruntfile.registerTask('build', _tasks);
+    docs: function(){
+      this.src.copy('_CONTRIBUTING.md','CONTRIBUTIN.md');
+      this.src.copy('_README.md','README.md');
     }
 
   },
